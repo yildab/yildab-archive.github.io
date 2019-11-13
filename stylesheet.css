@@ -67,6 +67,13 @@ html, body{
   padding-right: 10px;
 }
 
+#main ul{
+  font-family: Lato;
+  font-size: 10.5pt;
+  padding-top: 0;
+  list-style-type: disc;
+}
+
 #navbar li a {
   text-decoration: none;
   color: inherit;
@@ -76,10 +83,14 @@ html, body{
   font-weight: bold;
 }
 
+p + ul {
+    margin-top: -15px;
+}
+
 #navbar li {
   display: inline;
   border-right: 1px solid black;
-  line-height: 60px;
+  line-height: 62px;
   padding: 22px 22px;
   vertical-align: middle;
   width: 60px;
@@ -101,7 +112,9 @@ html, body{
 
 #main{
   height: 65%;
-  width: 90%;
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
   vertical-align: bottom;
   display: table;
   padding-top: 20%;
