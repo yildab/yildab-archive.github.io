@@ -74,6 +74,14 @@ html, body{
   list-style-type: disc;
 }
 
+#main ol{
+  font-family: Lato;
+  font-size: 11pt;
+  padding-top: 0;
+  list-style-type: disc;
+}
+
+
 #navbar li a {
   text-decoration: none;
   color: inherit;
